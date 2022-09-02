@@ -274,8 +274,10 @@ img {
 }
 /*container*/
 .container {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 1200px;
 }
 .nav,
@@ -353,6 +355,7 @@ img {
 .logo-footer {
   margin-left: 15px;
   margin-bottom: 20px;
+  padding-top: 60px;
 }
 .list-menu {
   justify-content: center;
@@ -365,8 +368,6 @@ img {
 .work-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 15px;
-  margin-left: 15px;
 }
 .pictures-list {
   width: 370px;
